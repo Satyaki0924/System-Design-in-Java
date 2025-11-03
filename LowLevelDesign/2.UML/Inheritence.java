@@ -1,9 +1,9 @@
 abstract class Animal {
-    enum TYPE {
+    enum AnimalType {
         MAMMAL, BIRD
     }
     public abstract int getNumberOfLegs();
-    public abstract TYPE getAnimalType();
+    public abstract AnimalType getAnimalType();
 }
 
 class GoldenRetriever extends Animal {
@@ -14,8 +14,8 @@ class GoldenRetriever extends Animal {
     }
 
     @Override
-    public Animal.TYPE getAnimalType() {
-        return TYPE.MAMMAL;
+    public Animal.AnimalType getAnimalType() {
+        return AnimalType.MAMMAL;
     }
 
 }
@@ -28,8 +28,8 @@ class Peacock extends Animal {
     }
 
     @Override
-    public Animal.TYPE getAnimalType() {
-        return TYPE.BIRD;
+    public Animal.AnimalType getAnimalType() {
+        return AnimalType.BIRD;
     }
     
 }

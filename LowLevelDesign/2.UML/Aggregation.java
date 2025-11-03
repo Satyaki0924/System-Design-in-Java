@@ -14,7 +14,7 @@ class Library {
     }
     public Book removeBook(String id) {
         for (Book book : books) {
-            if (book.getId() == id) {
+            if (book.getId().equalsIgnoreCase(id)) {
                 books.remove(book);
                 System.err.println("Successfully removed book with title: " + book.getName());
                 return book;
