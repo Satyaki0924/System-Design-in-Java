@@ -29,7 +29,3 @@
 - **Definition:** A class implements an interface.
 - **Example:** `Car` implements `Drivable`.
 - **UML Notation:** Dotted line with a hollow triangle pointing at the interface (`- - - - - - ▷`).
-
----
-
-Use these explanations to document relationships in your Java code and diagrams for better clarity and correctness.
