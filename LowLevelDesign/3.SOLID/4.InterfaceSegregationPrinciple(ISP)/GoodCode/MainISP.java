@@ -3,7 +3,7 @@ public class MainISP {
         PrintableISP printer = new MultiPrinterISP();
         printer.print();
 
-        ScannableISP scanner = new MultiPrinterISP();
+        ScanableISP scanner = new MultiPrinterISP();
         scanner.scan();
     }
 }

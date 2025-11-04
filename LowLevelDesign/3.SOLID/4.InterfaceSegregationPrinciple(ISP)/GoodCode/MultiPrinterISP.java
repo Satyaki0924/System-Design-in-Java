@@ -1,4 +1,4 @@
-public class MultiPrinterISP implements PrintableISP, ScannableISP, FaxableISP {
+public class MultiPrinterISP implements PrintableISP, ScanableISP, FaxableISP {
 
     @Override
     public void fax() {
